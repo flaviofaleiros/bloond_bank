@@ -17,10 +17,15 @@ const validations = yup.object().shape({
 })
 
 const dropdownOptions = [
-    { key: 'Select an option', value: '' },
-    { key: 'Option 1', value: 'option1' },
-    { key: 'Option 2', value: 'option2' },
-    { key: 'Option 3', value: 'option3' }
+    { key: 'Select an option', value: 'Tipo sanguinio' },
+    { key: 'A+', value: 'A+' },
+    { key: 'A-', value: 'A-' },
+    { key: 'B+', value: 'B+' },
+    { key: 'B-', value: 'B-' },
+    { key: 'AB+', value: 'AB+'},
+    { key: 'AB-', value: 'AB-'},
+    { key: 'O+', value: 'O+' },
+    { key: 'O-', value: 'O-' }
 ]
 
 const Form = () => {
@@ -62,27 +67,13 @@ const Form = () => {
                     />
                 </div>
 
-                {/*<div className={styles.Form__Group}>*/}
-                {/*    <Select*/}
-                {/*        type='select'*/}
-                {/*        label='Tipo Sanguinio'*/}
-                {/*        name='bloodType'*/}
-                {/*        options={dropdownOptions}*/}
-                {/*    />*/}
-                {/*</div>*/}
-
                 <div className={styles.Form__Group}>
-                    <select name="bloodType" className={styles.Form__Field}>
-                        <option value="">Tipo Sanguinio</option>
-                        <option value="A+">A+</option>
-                        <option value="A-">A-</option>
-                        <option value="B+">B+</option>
-                        <option value="B-">B-</option>
-                        <option value="AB+">AB+</option>
-                        <option value="AB-">AB-</option>
-                        <option value="O+">O+</option>
-                        <option value="O-">O-</option>
-                    </select>
+                    <Select
+                        type='select'
+                        label='Tipo Sanguinio'
+                        name='bloodType'
+                        options={dropdownOptions}
+                    />
                 </div>
 
                 <button className={styles.Form__Btn} type="submit">Confirmar</button>

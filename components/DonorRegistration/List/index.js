@@ -4,7 +4,7 @@ import {useRegister} from "../../../context/Register";
 
 const List = () => {
     const { register } = useRegister();
-    console.log(register);
+
     return (
         <>
             <table className={styles.container}>

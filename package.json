@@ -6,11 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "test": "jest",
+    "test:coverage": "jest --coverage"
   },
   "dependencies": {
-    "formik": "^1.5.2",
+    "formik": "^2.2.9",
     "next": "10.2.3",
     "prop-types": "^15.7.2",
     "react": "17.0.2",

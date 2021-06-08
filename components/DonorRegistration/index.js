@@ -2,7 +2,7 @@ import React, { useEffect, useState }from 'react';
 import Form from './Form';
 import List from './List';
 
-const Scheduling = () => {
+const DonorRegistration = () => {
     return (
         <>
             <Form />
@@ -11,4 +11,4 @@ const Scheduling = () => {
     );
 };
 
-export default Scheduling;
+export default DonorRegistration;

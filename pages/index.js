@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Header from '../components/Shared/Header';
-import Scheduling from '../components/Scheduling';
+import DonorRegistration from '../components/DonorRegistration';
 
 export default function Home() {
   return (
@@ -16,13 +16,13 @@ export default function Home() {
       
       <main className={styles.main}>
         <Header/>
-        <Scheduling/>
+        <DonorRegistration />
       </main>
 
       <footer className={styles.footer}>
           Chapter FRONTAL{' '}
           <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+            <Image src="/Frontal.svg" alt="Chapter FRONTAL Logo" width={32} height={32} />
           </span>
       </footer>
     </div>
