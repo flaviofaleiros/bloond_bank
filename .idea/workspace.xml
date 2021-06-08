@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad34cbc7-116a-443d-81b9-f4ceb522bbba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/context/Register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Scheduling/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/Shared/CheckboxGroup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Scheduling/Form/handleSubmit/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Scheduling/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Scheduling/Form/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Scheduling/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Scheduling/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Shared/Select/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/Select/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/api/hello.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,22 +39,104 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/form" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/components/Shared" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs.jest.jest_package" value="$PROJECT_DIR$/node_modules/jest" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Shared" />
       <recent name="$PROJECT_DIR$/components/form" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Shared/CheckboxGroup" />
       <recent name="$PROJECT_DIR$" />
     </key>
+  </component>
+  <component name="RunManager" selected="Jest.All Tests">
+    <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/components/Scheduling/spec.js" />
+      <test-names>
+        <test-name value="" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name=".should " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/components/Scheduling/spec.js" />
+      <test-names>
+        <test-name value="" />
+        <test-name value="should " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing component " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/components/Scheduling/spec.js" />
+      <test-names>
+        <test-name value="testing component " />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="testing component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/jest" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/components/Scheduling/spec.js" />
+      <test-names>
+        <test-name value="testing component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Jest.All Tests" />
+      <item itemvalue="Jest.Unnamed" />
+      <item itemvalue="Jest..should " />
+      <item itemvalue="Jest.testing component " />
+      <item itemvalue="Jest.testing component" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.testing component" />
+        <item itemvalue="Jest.testing component " />
+        <item itemvalue="Jest.Unnamed" />
+        <item itemvalue="Jest..should " />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,7 +147,9 @@
       <option name="presentableId" value="Default" />
       <updated>1623078396640</updated>
       <workItem from="1623078409780" duration="3574000" />
-      <workItem from="1623098560762" duration="8351000" />
+      <workItem from="1623098560762" duration="13717000" />
+      <workItem from="1623116706006" duration="70000" />
+      <workItem from="1623153523277" duration="469000" />
     </task>
     <servers />
   </component>
@@ -77,5 +166,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -1,10 +1,11 @@
-import React from 'react'
-import * as yup from 'yup'
-import { Formik, Form as FormikForm } from 'formik'
+import React from 'react';
+import * as yup from 'yup';
+import { Formik, Form as FormikForm, Field } from 'formik';
 
 import { useRegister } from "../../../context/Register";
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 import Input from '../../Shared/Input';
+import Select from '../../Shared/Select';
 
 const validations = yup.object().shape({
     name: yup.string().required('O nome do doador é obrigatório!'),
@@ -14,6 +15,13 @@ const validations = yup.object().shape({
         .min(18,'O doador deve ter no minimo 18 anos!')
         .max(75, 'O doador deve ter no maximo 75 anos!')
 })
+
+const dropdownOptions = [
+    { key: 'Select an option', value: '' },
+    { key: 'Option 1', value: 'option1' },
+    { key: 'Option 2', value: 'option2' },
+    { key: 'Option 3', value: 'option3' }
+]
 
 const Form = () => {
     const { register, setRegister } = useRegister([]);
@@ -53,6 +61,30 @@ const Form = () => {
                         name='age'
                     />
                 </div>
+
+                {/*<div className={styles.Form__Group}>*/}
+                {/*    <Select*/}
+                {/*        type='select'*/}
+                {/*        label='Tipo Sanguinio'*/}
+                {/*        name='bloodType'*/}
+                {/*        options={dropdownOptions}*/}
+                {/*    />*/}
+                {/*</div>*/}
+
+                <div className={styles.Form__Group}>
+                    <select name="bloodType" className={styles.Form__Field}>
+                        <option value="">Tipo Sanguinio</option>
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+                </div>
+
                 <button className={styles.Form__Btn} type="submit">Confirmar</button>
             </FormikForm>
         </Formik>
