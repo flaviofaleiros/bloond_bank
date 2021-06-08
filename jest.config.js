@@ -1,8 +1,20 @@
 module.exports = {
-    testPathIgnorePatterns: ['<rootDir>/.next/', '<rootDir>/node_modules/', '<rootDir>/pages/'],
-    bail: 1,
-    clearMocks: true,
-    collectCoverage: true,
-    collectCoverageFrom: ['components/**/*.js', 'pages/**/*.js'],
-    coverageReporters: ['lcov', 'text'],
-};
+    collectCoverageFrom: [
+        '**/*.{js,jsx,ts,tsx}',
+        '!**/*.d.ts',
+        '!**/node_modules/**',
+    ],
+    setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
+    testPathIgnorePatterns: ['/node_modules/', '/.next/'],
+    transform: {
+        '^.+\\.(js|jsx|ts|tsx)$': '<rootDir>/node_modules/babel-jest',
+        // '^.+\\.css$': '<rootDir>/config/jest/cssTransform.js',
+    },
+    transformIgnorePatterns: [
+        '/node_modules/',
+        '^.+\\.module\\.(css|sass|scss)$',
+    ],
+    moduleNameMapper: {
+        '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+    },
+}

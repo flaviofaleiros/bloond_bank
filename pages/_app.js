@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../styles/globals.scss'
 import RegisterProvider from "../context/Register";
 
 function MyApp({ Component, pageProps }) {

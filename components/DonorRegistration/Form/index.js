@@ -3,7 +3,7 @@ import * as yup from 'yup';
 import { Formik, Form as FormikForm, Field } from 'formik';
 
 import { useRegister } from "../../../context/Register";
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 import Input from '../../Shared/Input';
 import Select from '../../Shared/Select';
 

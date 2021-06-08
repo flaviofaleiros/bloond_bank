@@ -1,11 +1,11 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom';
-import Scheduling from "./index";
 
+import DonorRegistration from "./";
 describe('testing component', () => {
-    it('should ', function () {
-        render(<Scheduling />)
-        screen.debug();
+    it('should render', function () {
+        render(<DonorRegistration />)
+        expect(screen.getByText(/Tipo sanguinio/i)).toBeInTheDocument();
+
     });
 })

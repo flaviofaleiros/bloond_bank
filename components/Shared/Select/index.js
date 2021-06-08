@@ -1,7 +1,7 @@
 import React from 'react'
 import { Field, ErrorMessage } from 'formik'
 import TextError from '../TextError'
-import styles from "../Input/styles.module.css";
+import styles from "../Input/styles.module.scss";
 
 
 const Select = (props) => {

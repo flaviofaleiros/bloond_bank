@@ -1,6 +1,6 @@
 import React, { createContext, useState, useContext } from "react";
 
-const RegisterContext = createContext();
+const RegisterContext = createContext([]);
 
 export default function RegisterProvider({ children }) {
   const [register, setRegister] = useState([]);
@@ -19,7 +19,6 @@ export default function RegisterProvider({ children }) {
 
 export function useRegister() {
   const context = useContext(RegisterContext);
-  if (!context) throw new Error("useCount must be used within a CountProvider");
   const { register, setRegister } = context;
   return { register, setRegister };
 }
