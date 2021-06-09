@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ad34cbc7-116a-443d-81b9-f4ceb522bbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/Form/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/Form/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/List/styles.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/DonorRegistration/spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/spec.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Shared/Header/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/Header/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Shared/Input/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/Input/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +61,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Jest.testing component (1)">
+  <component name="RunManager" selected="Jest.testing component.rendering and submitting a basic Formik form">
     <configuration name="All Tests" type="JavaScriptTestRunnerJest" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -155,8 +149,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Jest.testing component (1)" />
         <item itemvalue="Jest.testing component.rendering and submitting a basic Formik form" />
+        <item itemvalue="Jest.testing component (1)" />
         <item itemvalue="Jest.testing component.should render" />
         <item itemvalue="Jest.testing component.It should keep a $ in front of the input" />
         <item itemvalue="Jest.testing component (2)" />
@@ -175,7 +169,8 @@
       <workItem from="1623098560762" duration="13717000" />
       <workItem from="1623116706006" duration="70000" />
       <workItem from="1623153523277" duration="9744000" />
-      <workItem from="1623173864882" duration="20415000" />
+      <workItem from="1623173864882" duration="20658000" />
+      <workItem from="1623239850071" duration="1465000" />
     </task>
     <servers />
   </component>
