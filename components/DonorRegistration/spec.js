@@ -1,32 +1,41 @@
 import React from 'react'
-import { render, screen, waitFor } from '@testing-library/react'
+import { render, screen, waitFor, fireEvent } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 
-import DonorRegistration from "./";
+import Form from "./";
 
 describe('testing component', () => {
     it('should render', function () {
-        render(<DonorRegistration />)
-        expect(screen.getByText(/Tipo sanguinio/i)).toBeInTheDocument();
+        render(<Form />)
+        expect(screen.getByText(/Tipo sanguíneo/i)).toBeInTheDocument();
     });
 
-    test('rendering and submitting a basic Formik form', async () => {
+    it('rendering and submitting a basic Formik form', async () => {
         const handleSubmit = jest.fn()
-        render(<DonorRegistration onSubmit={handleSubmit} />)
+        const { container } = render(<Form onSubmit={handleSubmit} />)
 
-        userEvent.type(screen.getByPlaceholderText(/Nome do doador/i), 'Flavio Augusto Faleiros')
-        userEvent.type(screen.getByAltText(/age/i), '19')
-        userEvent.type(screen.getByAltText(/email/i), 'john.dee@someemail.com')
+        fireEvent.change(container.querySelector('#name'), {
+            target: {
+                value: 'Flávio Augusto Faleiros'
+            }
+        });
+
+        fireEvent.change(container.querySelector('#email'), {
+            target: {
+                value: 'flavio.faleiros@gmail.com'
+            }
+        });
+
+        fireEvent.change(container.querySelector('#age'), {
+            target: {
+                value: '20'
+            }
+        });
 
         userEvent.click(screen.getByRole('button', { name: /Confirmar/i }))
-        screen.debug();
 
-        // await waitFor(() =>
-        //     expect(handleSubmit).toHaveBeenCalledWith({
-        //         email: 'john.dee@someemail.com',
-        //         firstName: 'John',
-        //         lastName: 'Dee',
-        //     }, expect.anything())
-        // )
+        await waitFor(() =>
+            expect(screen.getByText(/flavio.faleiros@gmail.com/i)).toBeInTheDocument()
+        )
     })
 })

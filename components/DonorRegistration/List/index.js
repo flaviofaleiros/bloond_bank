@@ -1,9 +1,7 @@
 import React from 'react';
 import styles from './styles.module.scss';
-import {useRegister} from "../../../context/Register";
 
-const List = () => {
-    const { register } = useRegister();
+const List = ({data}) => {
 
     return (
         <>
@@ -17,7 +15,7 @@ const List = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    { register?.map((row, index) => (
+                    { data?.map((row, index) => (
                         <tr key={index} >
                             <td className={styles.coll}>{row?.name}</td>
                             <td className={styles.coll}>{row?.email}</td>
