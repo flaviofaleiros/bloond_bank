@@ -8,7 +8,7 @@ const Input = (props) => {
 
   return (
     <>
-      <Field name={name} placeholder={label} className={styles.Form__Field} {...rest} />
+      <Field name={name} alt={name} placeholder={label} className={styles.Form__Field} {...rest} />
       <ErrorMessage component={TextError} name={name} />
     </>
   )

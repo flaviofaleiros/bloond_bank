@@ -36,50 +36,55 @@ const Form = () => {
     }
     const initialValues = {}
 
+
     return (
         <Formik initialValues={initialValues} onSubmit={handleSubmit} validationSchema={validations}>
-            <FormikForm className={styles.Form}>
-                <h1 className={styles.Form__Welcome}>Cadastro</h1>
+            {formik => {
+                return(
+                    <FormikForm className={styles.Form}>
+                        <h1 className={styles.Form__Welcome}>Cadastro</h1>
 
-                <h2 className={styles.Form__Info}>Informe seus dados para o cadastro</h2>
+                        <h2 className={styles.Form__Info}>Informe seus dados para o cadastro</h2>
 
-                <div className={styles.Form__Group}>
-                    <Input
-                        type='text'
-                        label='Nome do doador'
-                        name='name'
-                    />
-                </div>
+                        <div className={styles.Form__Group}>
+                            <Input
+                                type='text'
+                                label='Nome do doador'
+                                name='name'
+                            />
+                        </div>
 
-                <div className={styles.Form__Group}>
-                    <Input
-                        type='email'
-                        label='E-mail do doador'
-                        name='email'
-                    />
-                </div>
+                        <div className={styles.Form__Group}>
+                            <Input
+                                type='email'
+                                label='E-mail do doador'
+                                name='email'
+                            />
+                        </div>
 
-                <div className={styles.Form__Group}>
-                    <Input
-                        type='text'
-                        label='Idade do doador'
-                        name='age'
-                    />
-                </div>
+                        <div className={styles.Form__Group}>
+                            <Input
+                                type='text'
+                                label='Idade do doador'
+                                name='age'
+                            />
+                        </div>
 
-                <div className={styles.Form__Group}>
-                    <Select
-                        type='select'
-                        label='Tipo Sanguinio'
-                        name='bloodType'
-                        options={dropdownOptions}
-                    />
-                </div>
-
-                <button className={styles.Form__Btn} type="submit">Confirmar</button>
-            </FormikForm>
+                        <div className={styles.Form__Group}>
+                            <Select
+                                type='select'
+                                label='Tipo sanguíneo'
+                                name='bloodType'
+                                options={dropdownOptions}
+                            />
+                        </div>
+                        <button className={styles.Form__Btn} type="submit" disabled={!formik.isValid}>Confirmar</button>
+                    </FormikForm>
+                )
+            }}
         </Formik>
     )
+
 }
 
 export default Form
