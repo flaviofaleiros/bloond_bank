@@ -36,14 +36,13 @@ $ npm install
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
 ```
 
 ## Para executar os testes
 
 ```bash
-# Teste unitário
 $ npm run test
 ```
 
