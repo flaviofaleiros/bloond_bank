@@ -1,5 +1,3 @@
-Isto é um [Next.js](https://nextjs.org/) projeto inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
 <p align="center">
  <a href="http://nestjs.com/" target="blank"><img src="https://www.doadordesangue.com.br/public/image/pingo-sangue03.svg" width="320" alt="Nest Logo" /></a>
 </p>
@@ -37,4 +35,8 @@ $ npm run test
 
 Clique em [http://localhost:3000](http://localhost:3000) ou abra em seu navegador para acessar o cadastro.
 
+## Outros dados
+Foi utilizado o [Next.js](https://nextjs.org/), projeto inicializado com [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Libs de Teste  [jestjs](https://jestjs.io/pt-BR/) e [Testing Library](https://testing-library.com/)
 
