@@ -18,7 +18,7 @@ Para se cadastrar o usuário deverá informar:
 
 - e-mail válido;
 
-- Idade (deve ter entre 18 e 70 anos);
+- Idade (deve ter entre 18 e 75 anos);
 
 - Tipo sanguíneo.
 
