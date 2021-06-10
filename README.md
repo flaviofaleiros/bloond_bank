@@ -6,10 +6,24 @@
 
 ## Descrição do aplicativo
 
-To learn more about Next.js, take a look at the following resources:
+Bem - vindo ao Banco de Sangue do Frontal!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+
+Esse cadrastro foi criado para armazenar os dados de pessoas que desejam doar sangue.
+
+Para se cadastrar o usuário deverá informar:
+
+ - Nome completo;
+
+- e-mail válido;
+
+- Idade (deve ter entre 18 e 70 anos);
+
+- Tipo sanguíneo.
+
+
+Após preencher corretamente todos os dados acima, o doador deverá clicar no botão “confirmar”. Após a confirmação, os dados cadastrados serão apresentados na tela abaixo do botão “confirmar”.
 
 
 ## Para instalar execute
