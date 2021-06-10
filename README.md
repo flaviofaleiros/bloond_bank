@@ -1,5 +1,5 @@
 <p align="center">
- <a href="http://nestjs.com/" target="blank"><img src="https://www.doadordesangue.com.br/public/image/pingo-sangue03.svg" width="320" alt="Nest Logo" /></a>
+ <a href="#" target="blank"><img src="https://www.doadordesangue.com.br/public/image/pingo-sangue03.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
 ## Banco de Sangue do Frontal
