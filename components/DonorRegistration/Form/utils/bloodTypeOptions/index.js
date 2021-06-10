@@ -1,5 +1,5 @@
 export const dropdownOptions = [
-    { key: 'Select an option', value: 'Tipo sanguíneo' },
+    { key: '', value: 'Tipo sanguíneo' },
     { key: 'A+', value: 'A+' },
     { key: 'A-', value: 'A-' },
     { key: 'B+', value: 'B+' },

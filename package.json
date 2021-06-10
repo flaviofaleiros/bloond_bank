@@ -22,10 +22,10 @@
     "yup": "^0.27.0"
   },
   "devDependencies": {
-    "@testing-library/dom": "^7.31.2",
-    "@testing-library/user-event": "^13.1.9",
+    "@testing-library/dom": "^7.28.1",
     "@testing-library/jest-dom": "^5.9.0",
     "@testing-library/react": "^10.3.0",
+    "@testing-library/user-event": "^12.2.2",
     "babel-jest": "^25.1.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^25.2.3",
