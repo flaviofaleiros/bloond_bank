@@ -4,6 +4,12 @@
     <list default="true" id="ad34cbc7-116a-443d-81b9-f4ceb522bbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/utils/bloodTypeOptions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/utils/bloodTypeOptions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/utils/validationForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/utils/validationForm/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/List/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/List/styles.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +62,8 @@
       <recent name="$PROJECT_DIR$/components/form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/components/Shared" />
+      <recent name="$PROJECT_DIR$/components/DonorRegistration" />
       <recent name="$PROJECT_DIR$/components/DonorRegistration/Form/utils" />
       <recent name="$PROJECT_DIR$/components/Shared/CheckboxGroup" />
       <recent name="$PROJECT_DIR$" />
@@ -174,7 +182,7 @@
       <workItem from="1623336913857" duration="3497000" />
       <workItem from="1623347054005" duration="377000" />
       <workItem from="1623347540861" duration="1164000" />
-      <workItem from="1623359806480" duration="33000" />
+      <workItem from="1623359806480" duration="1002000" />
     </task>
     <servers />
   </component>

@@ -1,11 +1,11 @@
 import React, { useState }from 'react';
 import {Formik, Form as FormikForm, Field, ErrorMessage} from 'formik';
 
-import { dropdownOptions } from './Form/utils/bloodTypeOptions';
-import { validations } from './Form/utils/validationForm';
+import { dropdownOptions } from '../Shared/utils/bloodTypeOptions';
+import { validations } from '../Shared/utils/validationForm';
 import TextError from "../Shared/TextError";
-import styles from './Form/styles.module.scss';
-import List from "./List";
+import styles from './styles.module.scss';
+import List from "../Shared/List";
 
 const DonorRegistration = () => {
 
