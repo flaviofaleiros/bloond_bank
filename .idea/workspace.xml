@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ad34cbc7-116a-443d-81b9-f4ceb522bbba" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/utils/bloodTypeOptions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/utils/bloodTypeOptions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/Form/utils/validationForm/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/utils/validationForm/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/List/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/List/styles.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/components/Shared/List/styles.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/DonorRegistration/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/components/DonorRegistration/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Projetos_Estudo/React/alura-styled-components" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -183,6 +176,13 @@
       <workItem from="1623347054005" duration="377000" />
       <workItem from="1623347540861" duration="1164000" />
       <workItem from="1623359806480" duration="1002000" />
+      <workItem from="1623442798638" duration="84000" />
+      <workItem from="1623701263620" duration="104000" />
+      <workItem from="1623806383870" duration="687000" />
+      <workItem from="1623845797345" duration="1248000" />
+      <workItem from="1623890157949" duration="1974000" />
+      <workItem from="1623936483792" duration="1223000" />
+      <workItem from="1623962713962" duration="687000" />
     </task>
     <servers />
   </component>

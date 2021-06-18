@@ -79,3 +79,19 @@ describe('Field contents should exist', () => {
       })
 
 })
+
+describe('Validate fields', () => {
+
+  it('should validate name field', () => {
+    const { container } = render(<DonorRegistration />)
+
+    const submitButton = container.querySelector('#submitButton');
+
+    submitButton.simulate('click');
+
+    const element = screen.getAllByText(/O nome do doador é obrigatório!/i);
+
+    expect(element).toBeInTheDocument();
+  })
+
+})
